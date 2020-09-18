@@ -1,3 +1,5 @@
+package com.bridglabz.programingproblems.basiccoreproblems
+
 import scala.io.StdIn.readLine
 
 object LeapYear {
@@ -7,10 +9,10 @@ object LeapYear {
       println(year + " is a leap year")
     }
     else if (year % 4 == 0 && year % 100 != 0) {
-      println(year+" is a leap year")
+      println(year + " is a leap year")
     }
     else
-      println(year+" is not a leap year")
+      println(year + " is not a leap year")
   }
 
   def main(args: Array[String]): Unit = {
